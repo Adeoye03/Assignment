@@ -1,0 +1,149 @@
+a{
+    text-decoration: none;
+}
+.collapse navbar-collapse{
+    text-align: center;
+}
+.col{
+    border-style: solid;  
+    border-color:aliceblue;
+    
+}
+h2{
+    text-align:center;
+}
+.nav-item{
+    text-align: center;
+}
+.hero-banner{
+    background-color: beige;
+    padding-top: 40px 60px;
+    width: auto;
+}
+.hero-wrap{
+    padding: 30px 0px;
+}
+.hero-title{
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+.hero-caption{
+    font-size: 11px;
+}
+.btn-cta{
+    background-color:red;
+    color:white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 200px;
+}
+.btn-cta:hover{
+    background-color:crimson;
+    color:black;
+    border-color: red;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+.hero-img img{
+    width: fit-content;
+}
+.hero-img{
+    text-align: right;
+}
+.btn:hover{
+    background-color:red;
+    border-color: red;
+}
+.btn{
+    border-color: red;
+    color: red;
+
+}
+.btn-1{
+    background-color:unset;
+    border-style: none;
+    
+
+}
+.btn-1:hover{
+    background-color:red;
+    border-color:red;
+    border-style: solid;
+    border-radius: 7px;
+}
+.hero-title2{
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+.hero-caption2{
+    font-size: 16px
+}
+.hero-img2{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+.row-p{
+    font-size: 20px;
+    text-align: center;
+}
+.container{
+    margin-top: 15px;
+}
+.row{
+    margin-top: 15px;
+}
+.btn-h3{
+    border-radius: 15px;
+    border-color: red;
+    background-color: unset;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 20px;
+    color: red;
+}
+.btn-h3:hover{
+    background-color:red;
+    color: white;
+}
+.centre{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+.list-ul{
+   
+    justify-content: center; 
+    vertical-align: middle;
+    line-height: 30px;
+}
+.col:hover{
+    border-color: red;
+}
+.img-container{
+    text-align: center;
+}
+
+.col-div{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    
+}
+.row::after{
+    content: none;
+    display: table;
+    clear: both;
+    padding: 10px;
+}
